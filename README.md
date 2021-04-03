@@ -11,6 +11,7 @@
 
 ##### To run any exmaple: go run ./name_of_file.go
 
+##### to make an executable:   go build go_code.go
 
 
 
