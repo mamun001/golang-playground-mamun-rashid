@@ -29,7 +29,9 @@ type BinaryTree struct {
 	root *BinaryNode
 }
 
-// insert at "BinaryTree" i.e. at "root" ??
+// This is THE INSERT for the "tree" or "BinaryTree".
+// This , in turn, calls the INSERT into "node"
+
 func (t *BinaryTree) insert(value int32) *BinaryTree {
 
 	// IF root is nil, that means we are below a leaf i.e. and emty location, not even a leaf
@@ -43,6 +45,7 @@ func (t *BinaryTree) insert(value int32) *BinaryTree {
 }
 
 // INSERT at "node"
+// But, it is confirmed that we need both
 func (n *BinaryNode) insert(value int32) {
 
 	// insert based on value, keep going lef or right until you find the right place for the value to be inserted
@@ -84,13 +87,12 @@ func print(w io.Writer, node *BinaryNode, ns int, ch rune) {
 func main() {
 	fmt.Println("Hello, playground")
 
-	tree := &BinaryTree{}
-	tree.insert(108)
-	tree.insert(95)
-	tree.insert(120)
-	tree.insert(98)
-	tree.insert(110)
+	tree1 := &BinaryTree{}
+	tree1.insert(108)
+	tree1.insert(95)
+	tree1.insert(120)
+	tree1.insert(98)
+	tree1.insert(110)
 
-	print(os.Stdout, tree.root, 0, 'M')
+	print(os.Stdout, tree1.root, 0, 'M')
 }
-
