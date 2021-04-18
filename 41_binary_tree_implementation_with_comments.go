@@ -130,6 +130,24 @@ func is_there(value int32, thisnode *BinaryNode) bool {
 	return answer
 }
 
+// find_parent function written by Mamun Rashid
+func find_parent(childvalue int32, thisnode *BinaryNode) int32 {
+
+	var answer int32 = 0 // default answer
+
+	if thisnode.left.value == childvalue {
+		answer = thisnode.value
+		return answer
+	}
+
+	if thisnode.right.value == childvalue {
+		answer = thisnode.value
+		return answer
+	}
+
+	return answer
+}
+
 // ENTRYPOINT
 func main() {
 	tree1 := &BinaryTree{}
@@ -153,11 +171,17 @@ func main() {
 	print(os.Stdout, tree1.root, 10, 'M')
 	fmt.Println("  ----------------------- ")
 
-	fmt.Println ("6 Test cases of is_there function")
+	fmt.Println("6 Test cases of is_there function")
 	fmt.Println(is_there(100, tree1.root))
 	fmt.Println(is_there(137, tree1.root))
 	fmt.Println(is_there(75, tree1.root))
 	fmt.Println(is_there(1, tree1.root))
 	fmt.Println(is_there(66, tree1.root))
 	fmt.Println(is_there(300, tree1.root))
+	fmt.Println("  ----------------------- ")
+	
+	
+        fmt.Println("Test cases of find_parent function")
+	fmt.Println(find_parent(150, tree1.root))
+
 }
