@@ -13,6 +13,8 @@
 
 ##### to make an executable:   go build go_code.go
 
+##### The leetcode solutions wwon't run as is. Just saving the solutions here
+
 
 
 
