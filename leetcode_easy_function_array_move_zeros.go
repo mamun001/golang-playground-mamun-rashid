@@ -1,5 +1,6 @@
 
 // #283 Leetcode easy level
+// function, array
 
 func run_one_loop(nums []int) {
     

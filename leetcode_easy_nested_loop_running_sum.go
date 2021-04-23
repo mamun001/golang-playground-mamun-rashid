@@ -1,4 +1,8 @@
 
+// leetcode easy level
+// nested loop
+
+
 func runningSum(nums []int) []int {
     
     //var result [len(nums)]int
