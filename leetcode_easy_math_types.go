@@ -1,4 +1,7 @@
-// output only the integer part of a number up to 2^31 -1
+
+// leetcode
+
+// output only the integer part of a number's sqrt up to 2^31 -1
 // example input
 // 8
 // 99

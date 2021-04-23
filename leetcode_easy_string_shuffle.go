@@ -1,3 +1,9 @@
+
+
+
+// leetcode easy level
+// string
+
 func restoreString(s string, indices []int) string {
     
     chars := make([]byte, len(indices))

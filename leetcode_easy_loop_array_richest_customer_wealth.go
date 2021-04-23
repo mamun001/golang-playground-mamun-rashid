@@ -1,3 +1,6 @@
+
+// Leetcode easy
+
 import "fmt"
 
 func maximumWealth(accounts [][]int) int {

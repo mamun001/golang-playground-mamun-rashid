@@ -1,3 +1,9 @@
+
+
+// leetcode easy
+
+
+
 func numIdenticalPairs(nums []int) int {
     var good int = 0
     

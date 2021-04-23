@@ -1,3 +1,11 @@
+
+
+// leetcode easy level
+// functions
+
+
+
+
 func CountDigits(i int) (count int) {
  	for i != 0 {
 

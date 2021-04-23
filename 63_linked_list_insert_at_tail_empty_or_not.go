@@ -1,4 +1,11 @@
 
+
+
+// This is not a leetcode problem
+// This is just function that wrote while doing leetcode
+
+
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {

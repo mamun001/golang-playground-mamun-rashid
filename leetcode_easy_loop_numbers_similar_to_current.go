@@ -1,3 +1,9 @@
+
+
+// leetcode easy level
+// for loops
+
+
 func smallerNumbersThanCurrent(nums []int) []int {
     
     a := make([]int, len(nums))

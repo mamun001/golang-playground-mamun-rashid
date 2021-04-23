@@ -1,3 +1,8 @@
+
+
+// leetcode easy
+// string
+
 func numJewelsInStones(jewels string, stones string) int {
     
     var count_of_matches int = 0
