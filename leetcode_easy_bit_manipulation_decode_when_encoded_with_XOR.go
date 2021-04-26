@@ -1,3 +1,6 @@
+
+
+
 func decode(encoded []int, first int) []int {
     
     result := make([]int, 0)

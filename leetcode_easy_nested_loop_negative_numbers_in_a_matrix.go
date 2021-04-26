@@ -1,3 +1,9 @@
+
+
+
+// leetcode easy
+// nested_loop
+
 func countNegatives(grid [][]int) int {
     count := 0
     

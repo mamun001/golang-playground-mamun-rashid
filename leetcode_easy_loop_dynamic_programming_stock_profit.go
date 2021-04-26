@@ -1,4 +1,8 @@
 
+
+// leetcode easy #121 stock profit
+// for loop
+ 
 func maxProfit(prices []int) int {
     
     lowest_price := 10000
