@@ -1,3 +1,8 @@
+
+
+// leetcode easy
+// slice , reverse
+
 import (
     "fmt"
     "math"

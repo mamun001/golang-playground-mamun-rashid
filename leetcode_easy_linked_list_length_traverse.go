@@ -1,4 +1,6 @@
 
+// leetcode easy
+// linked list, length, traverse, two_to_the_power_function
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -19,7 +21,7 @@ func length(head *ListNode) int {
 }
 
 
-
+// THIS IS THE MAIN FUNCTION
 func get_answer(head *ListNode, P int) int {
     
     // get the sum of all binary digits' values

@@ -1,4 +1,8 @@
 
+// leetcode easy 
+// strings
+
+
 func arrayStringsAreEqual(word1 []string, word2 []string) bool {
     
     combo_1 := make([]byte, 0)

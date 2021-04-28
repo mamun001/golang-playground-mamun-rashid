@@ -1,4 +1,7 @@
+
+
 // LC easy 81 pct acceptance rate
+// strings , nested loops
 
 func contains(s []byte, e byte) bool {
     for _, a := range s {

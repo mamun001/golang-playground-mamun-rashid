@@ -1,3 +1,8 @@
+
+
+// leetcode easy
+// for loop
+
 func kidsWithCandies(candies []int, extraCandies int) []bool {
     a := make([]bool, len(candies))
     var max int = 0

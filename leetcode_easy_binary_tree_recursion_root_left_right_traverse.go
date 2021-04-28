@@ -1,5 +1,6 @@
 
 
+// leetcode easy
 // 617. Merge Two Binary Trees (Leetcode)
 
 // This is solution for:  https://leetcode.com/problems/merge-two-binary-trees/
