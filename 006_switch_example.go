@@ -1,3 +1,4 @@
+
 // Exact copy from gobyexample.com
 
 package main

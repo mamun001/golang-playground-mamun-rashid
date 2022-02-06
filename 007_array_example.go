@@ -1,4 +1,4 @@
-// from gobyexample.com
+// copied from gobyexample.com
 
 package main
 
