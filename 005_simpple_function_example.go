@@ -1,7 +1,10 @@
 package main
 
-// Mamun Rashid
+// Mamun Rashid's code
 // Tested in go Playground
+
+// Write a function that takes in integer and retruns true if it is 1, otherwise returns false
+//
 
 import (
 	"fmt"

@@ -1,5 +1,7 @@
 // copied from https://gobyexample.com/values
-
+//
+// Task: print a string , an integer, a floating point number , a boolean without defining any variables
+//
 
 package main
 

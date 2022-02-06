@@ -1,4 +1,7 @@
 // copied from gobyexample.com
+//
+// Task: write any if then else block
+//
 
 package main
 

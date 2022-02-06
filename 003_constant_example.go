@@ -1,4 +1,8 @@
 // copied from gobyexample.com
+//
+// Task: define a constant a and give it long integer value
+//
+
 
 package main
 
