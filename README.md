@@ -15,6 +15,8 @@
 
 ##### The leetcode solutions wwon't run as is. Just saving the solutions here
 
+##### Numbering scheme 500+ binary tree, 200+ leetcode easy  , 600+ leetcode medium
+
 
 
 
