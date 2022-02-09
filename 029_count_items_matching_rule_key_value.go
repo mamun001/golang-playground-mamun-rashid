@@ -1,3 +1,13 @@
+
+
+// leetcode number 1773 easy
+//
+// Mamun's code
+//
+// nested loops
+//
+
+
 func countMatches(items [][]string, ruleKey string, ruleValue string) int {
     
     answer := 0

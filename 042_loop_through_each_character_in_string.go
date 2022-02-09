@@ -1,6 +1,9 @@
 package main
 
 // Tested in golang playground
+// 
+// Mamun's code
+//
 
 import (
 	"fmt"

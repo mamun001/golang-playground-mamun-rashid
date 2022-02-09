@@ -1,5 +1,6 @@
-
+//
 // Written by Mamun Rashid
+//
 
 func traverse(head *ListNode) {
     if head.Next == nil {
