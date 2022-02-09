@@ -1,7 +1,12 @@
-package main
 
+// Looks like Mamun's code
+//
 // Tested on Go Playground
+//
+// TASK: use struct to make BOOK and write FUNC for NEWBOOK CONSTRUCTOR
 
+
+package main
 import (
 	"fmt"
 )
