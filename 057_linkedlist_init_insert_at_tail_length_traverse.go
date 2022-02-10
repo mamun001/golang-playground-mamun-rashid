@@ -13,12 +13,15 @@ type ListNode struct {
 	Next *ListNode
 }
 
+
+// insert at pos 1 regardless
 func init_insert(LL *ListNode, Value int) *ListNode {
 
 	LL = &ListNode{Val: Value, Next: nil}
 	return LL
 }
 
+// get the LAST VALUE
 func get_tail(head *ListNode) int {
 	if head.Next == nil {
 		return head.Val
