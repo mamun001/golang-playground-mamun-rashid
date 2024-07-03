@@ -5,14 +5,15 @@ import (
 )
 
 func main() {
+
 	channel1 := make(chan string)
 
 	go func() {
-		channel1 <- "This message is going to channel1"
+		channel1 <- "This message will go into channel 1"
 	}()
 
-	retrieved_message := <-channel1
+	message_out := <-channel1
 
-	fmt.Println(retrieved_message)
+	fmt.Println(message_out)
 
 }
