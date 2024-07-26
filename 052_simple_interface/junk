@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+// Define the simplest possible interface
+type SimpleInterface interface {
+	DoSomething()
+}
+
+// Define a type that implements the interface
+type SimpleType struct{}
+
+// Implement the DoSomething method
+func (s SimpleType) DoSomething() {
+	fmt.Println("Doing something!")
+}
+
+func main() {
+	var s SimpleInterface = SimpleType{}
+	s.DoSomething()
+}
+
