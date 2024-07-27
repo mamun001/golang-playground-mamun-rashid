@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+type car_rental interface {
+	rent()
+}
+
+type car_model struct {
+	model string
+}
+
+func (cm2 car_model) rent() {
+	fmt.Println("Car Rented", cm2.model)
+}
+
+func main() {
+	var mycar car_rental
+	mycar = car_model{model: "camry"}
+	mycar.rent()
+}
+
