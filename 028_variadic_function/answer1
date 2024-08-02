@@ -1,0 +1,15 @@
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func concat_all_strings(s ...string) string {
+	result := strings.Join(s, " ")
+	return result
+}
+
+func main() {
+	fmt.Println(concat_all_strings("ab", "cd", "ef"))
+}
