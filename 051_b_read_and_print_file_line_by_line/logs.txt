@@ -1,0 +1,7 @@
+a
+b
+c
+error
+ERROR
+d
+e
