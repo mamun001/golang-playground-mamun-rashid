@@ -1,0 +1,1 @@
+Now write a function that will take in something that will query this array for particular value for the first word in the 2nd column (i.e. batter or bowler etc.) and same for the 2nd and 3rd. That is to say, one can call this function from main and give it specific values for each these categories and get the first names that match
