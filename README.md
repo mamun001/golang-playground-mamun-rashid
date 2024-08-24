@@ -6,8 +6,9 @@
 ##### http://linkedin.com/mamunrashid
 
 
-#### Goal is to be good enough in Go to solve a few problems in Leetcode
+#### Goal is to be good enough in Go to solve a few problems in Leetcode & be able to run DevOps SRE jobs using Golang
 
+#### As of August , 2024: I have 137 Folders here, sorted by difficulty
 
 ##### To run any exmaple: go run ./name_of_file.go
 
